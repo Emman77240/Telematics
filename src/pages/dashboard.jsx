@@ -1,5 +1,4 @@
 import React/*, { Component }*/ from 'react';
-//import { Map, GoogleApiWrapper } from 'google-maps-react';
 import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
@@ -84,5 +83,5 @@ class Dashboard extends React.Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: 'API KEY GOES HERE'
+    apiKey: 'YOUR API KEY GOES HERE'
   })(Dashboard);
